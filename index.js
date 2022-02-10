@@ -19,13 +19,6 @@ const questions = [
   },
   {
     type: "input",
-    name: "installationProcess",
-    message: "Please describe the the steps required to install your project",
-    default:
-      "Step-by-step description of how to get the development environment running.",
-  },
-  {
-    type: "input",
     name: "usage",
     message: "Enter usage information",
     default:
