@@ -9,39 +9,32 @@ const questions = [
     type: "input",
     name: "title",
     message: "Enter your project title:",
-    default: "Project-Title",
   },
   {
     type: "input",
     name: "description",
     message: "Enter your project description",
-    default: "Project-Description",
   },
   {
     type: "input",
     name: "usage",
     message: "Enter usage information",
-    default:
-      "Run ```node index.js``` in the terminal and answer the required questions.",
   },
   {
     type: "input",
     name: "collaborators",
     message:
       "List your collaborators, if any, with links to their GitHub profiles.",
-    default: "https://github.com/nico-patano",
   },
   {
     type: "input",
     name: "tests",
     message: "Insert the commands to test your program",
-    default: "```npm test```",
   },
   {
     type: "input",
     name: "questions",
     message: "Insert an e-mail for contact",
-    default: "email@email.com",
   },
   {
     type: "list",
